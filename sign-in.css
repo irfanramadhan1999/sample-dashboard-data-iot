@@ -1,0 +1,18 @@
+/* TABLE HTML START */
+table{
+  width: 50%;
+}
+table, th, td {
+  border:1px solid black;
+}
+
+th{
+  padding: 5px 30px;
+  text-align: center;
+}
+
+td{
+  padding: 5px 30px;
+  text-align: center;
+}
+/* TABLE HTML END */
