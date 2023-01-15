@@ -6,6 +6,9 @@ td {
   border: 1px solid black;
 }
 
+.pages-button{
+ width: fit-content;
+}
 /* TABLE HTML END */
 
 /* responsive start */
@@ -84,5 +87,9 @@ td {
     text-align: center;
     font-size: 10px;
   }
+  .btn{
+ width: fit-content;
+ font-size: 10px;
+}
 }
 /* responsive end */
