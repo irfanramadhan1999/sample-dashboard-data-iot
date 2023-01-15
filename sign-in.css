@@ -1,21 +1,88 @@
 /* TABLE HTML START */
-table{
-  width: 50%;
-}
-table, th, td {
-  border:1px solid black;
-}
 
-th{
-  padding: 5px 30px;
-  text-align: center;
-  background-color: lightgrey;
+table,
+th,
+td {
+  border: 1px solid black;
 }
-
-td{
-  padding: 5px 30px;
-  text-align: center;
-}
-
 
 /* TABLE HTML END */
+
+/* responsive start */
+@media screen and (min-width: 1024px) {
+  table {
+    width: 50%;
+  }
+
+  th {
+    padding: 5px 30px;
+    text-align: center;
+    background-color: lightgrey;
+    font-size: 20px;
+
+  }
+
+  td {
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 20px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    width: 50%;
+  }
+
+  th {
+    padding: 2px 25px;
+    text-align: center;
+    background-color: lightgrey;
+    text-align: center;
+  }
+
+    td {
+    padding: 2px 25px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 765px){
+  table {
+    width: 50%;
+  }
+
+  th {
+    padding: 1px 3px;
+    text-align: center;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 14px;
+  }
+
+    td {
+    padding: 1px 3px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+}
+
+
+@media screen and (max-width: 375px){
+    th {
+    padding: 1px 3px;
+    text-align: center;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 10px;
+  }
+
+    td {
+    padding: 1px 3px;
+    text-align: center;
+    font-size: 10px;
+  }
+}
+/* responsive end */
