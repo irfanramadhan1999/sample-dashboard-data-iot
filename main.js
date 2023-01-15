@@ -11,7 +11,7 @@ $(document).ready(function () {
             <th>Waterpump 1</th>
             <th>Waterpump 2</th>
             <th>Waktu</th>
-          </tr>
+      </tr>
      `;
 
      result.data.forEach((e) => {
@@ -30,3 +30,4 @@ $(document).ready(function () {
     },
   });
 });
+
