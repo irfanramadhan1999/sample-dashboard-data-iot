@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="refresh"  content="1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table</title>
+    <title>Dashboard Water Level</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,19 +14,33 @@
     <link rel="stylesheet" href="sign-in.css" />
   </head>
   <body>
-    <h1>Dashboard Data WaterLevel</h1>
-
-    <section class="data-pages">
-      <div class="container">
-        <table id="myTable">
-          
-          
-        </table>
-
-        <button type="button" class="btn btn-primary mt-3 ms-auto">Cetak Data ke file exel</button>
+    <!-- #### navbar start #### -->
+    <nav class="navbar bg-body-tertiary shadow-sm py-4">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1 mx-auto fw-bold"
+          >Dashboard Data WaterLevel</span
+        >
       </div>
+    </nav>
+    <!-- #### navbar end #### -->
+
+    <section class="data-pages mt-5 ">
+      <div class="d-flex">
+              <div class="container">
+        <table id="myTable" class="mx-auto"></table>
+      </div>    
+      </div>
+  
     </section>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
     <script src="./main.js"></script>
   </body>
 </html>

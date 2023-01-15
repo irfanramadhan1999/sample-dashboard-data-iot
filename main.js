@@ -11,7 +11,6 @@ $(document).ready(function () {
             <th>Waterpump 1</th>
             <th>Waterpump 2</th>
             <th>Waktu</th>
-            <th>Hapus</th>
           </tr>
      `;
 
@@ -24,7 +23,6 @@ $(document).ready(function () {
             <td>${e["waterpump1"]}</td>
             <td>${e["waterpump2"]}</td>
             <td>${e["waktu"]}</td>
-            <td><a href="" class="btn btn-primary">hapus</a></td>
           </tr>
         `;
      });
