@@ -11,6 +11,7 @@ $(document).ready(function () {
             <th>Waterpump 1</th>
             <th>Waterpump 2</th>
             <th>Waktu</th>
+            <th>Hapus</th>
       </tr>
      `;
 
@@ -23,6 +24,7 @@ $(document).ready(function () {
             <td>${e["waterpump1"]}</td>
             <td>${e["waterpump2"]}</td>
             <td>${e["waktu"]}</td>
+            <td><button type="button" class="btn btn-primary" id="delete-button" onclick="deleteData(data.id)">Hapus</button></td>
           </tr>
         `;
      });
@@ -30,4 +32,5 @@ $(document).ready(function () {
     },
   });
 });
+
 
